@@ -46,7 +46,7 @@ function NavBar() {
   return (
     <nav className="nav">
       <Link to="/" className="nav-logo">
-        <img src={logo} /> MacVG
+        <img src={logo} /> Vboi's Games
       </Link>
       <div className="nav-search-container" ref={searchContainerRef}>
         <div className="nav-search-bar">
