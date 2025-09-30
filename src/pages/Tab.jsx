@@ -51,13 +51,13 @@ function Tab({ page }) {
     switch (page) {
       case "new":
         setDescription(
-          "On each seasonal update we add tons of new games to MacVG, and you can access the games added in the previous update here! Play and discover all the new awesome games directly from the New tab!"
+          "On each occasional update we add tons of new games to Vboi's Games, and you can access the games added in the previous update here! Play and discover all the new awesome games directly from the New tab!"
         );
         setGames(gamesData.games.filter((game) => game.new));
         break;
       case "trending":
         setDescription(
-          "Here are the top 10 games on MacVG right now, sorted by total plays! View and play the most popular games everyone's playing, all easily through the Trending tab! (This list updates every season)"
+          "Here are the top 10 games on Vboi's Games right now, sorted by total plays! View and play the most popular games everyone's playing, all easily through the Trending tab! (This list updates every update)"
         );
         setGames(gamesData.games.filter((game) => game.trending).sort((a, b) => b.trending - a.trending));
         break;
@@ -82,7 +82,7 @@ function Tab({ page }) {
 
   return (
     <>
-      <title>{`${page[0].toUpperCase() + page.substring(1)} | MacVG`}</title>
+      <title>{`${page[0].toUpperCase() + page.substring(1)} | Vboi's Games`}</title>
       <NavBar />
       <div className="wrap">
         <div className="content">
@@ -120,7 +120,7 @@ function Tab({ page }) {
                   )}
                   {page === "recent" && (
                     <>
-                      You haven't played any games on MacVG yet! Browse our collection of the best online games on the homepage or
+                      You haven't played any games on Vboi's Games yet! Browse our collection of the best online games on the homepage or
                       from the tabs above!
                     </>
                   )}
@@ -181,7 +181,7 @@ function Tab({ page }) {
                 <h2 className="setting-name">About:blank embedder</h2>
                 <p className="setting-description">
                   Open a website in an about:blank page.{" "}
-                  <span onClick={(e) => embed(e, window.location.href)}>Open MacVG in about:blank</span>
+                  <span onClick={(e) => embed(e, window.location.href)}>Open Vboi's Games in about:blank</span>
                 </p>
                 <form className="hero-search">
                   <input type="text" className="hero-search-bar" placeholder="Enter URL address here" ref={embedInput} />
