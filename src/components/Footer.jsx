@@ -10,8 +10,8 @@ function Footer() {
         </Link>
         <div className="footer-copy">
           &copy; {new Date().getFullYear()}{" "}
-          <a href="https://mac-web.github.io" target="_blank">
-            MacWeb
+          <a href="about:blank" target="_blank">
+            Vboi's Games
           </a>
         </div>
         <div className="footer-copy">All rights reserved</div>
