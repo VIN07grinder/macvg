@@ -83,9 +83,9 @@ function Home() {
       {modal && (
         <Modal
           img="/macvg/update.jpg"
-          name="Introducing: MacVG 2.0!"
-          description="Experience gaming like never before with the new upgraded MacVG completely rebuilt, redesigned, and optimized with modern technology."
-          link="https://mac-web.github.io/macblog/#/post/"
+          name="Introducing: Vboi's Games 6.0!"
+          description="Experience gaming like never before with the new upgraded Vboi's Games completely rebuilt, redesigned, and optimized with modern technology."
+          link="about:blank"
           setModal={setModal}
           //TODO: update modal release notes link
         />
@@ -94,7 +94,7 @@ function Home() {
       <div className="wrap">
         <div className="content">
           <div className="hero">
-            <h1 className="hero-title">Welcome to MacVG!</h1>
+            <h1 className="hero-title">Welcome to Vboi's Games!</h1>
             <p className="hero-description">
               Fun, redefined: hundreds of free online games. Endless fun. Infinite possibilities.
             </p>
@@ -205,7 +205,7 @@ function Home() {
               <div>
                 No games found. Request a game{" "}
                 <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLScE9-d6agIablAARRlwVDUAcL7N6V4AVR6-c33dhVPSaR45CA/viewform"
+                  href="https://form.typeform.com/to/T1iQGrzo"
                   target="_blank"
                   className="games-link"
                 >
