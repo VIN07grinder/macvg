@@ -43,6 +43,9 @@ function Footer() {
       <div className="footer-column">
         <h2 className="footer-title">Social</h2>
         <div className="footer-social">
+          <a href="mailto:vihaankrao@gmail.com" target="_blank" className="footer-icon" title="Email us">
+            <img src={email} />
+          </a>
           <a href="https://www.youtube.com/@BB123-YT" target="_blank" className="footer-icon" title="YouTube">
             <img src={youtube} />
           </a>
